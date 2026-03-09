@@ -1,0 +1,8 @@
+[build]
+providers = ["node"]
+
+[providers.node]
+version = "18"
+
+[start]
+cmd = "node railway-init.js"
