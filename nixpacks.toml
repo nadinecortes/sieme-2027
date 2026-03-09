@@ -1,0 +1,12 @@
+[phases.setup]
+nixpkgs = ['nodejs_18', 'npm']
+
+[phases.install]
+cmds = ['npm install --production']
+
+[phases.build]
+
+[start]
+cmd = 'node railway-init.js'
+
+[staticAssets]
