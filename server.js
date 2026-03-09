@@ -47,7 +47,7 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 // Static files
-app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // ========== API ROUTES ==========
 
